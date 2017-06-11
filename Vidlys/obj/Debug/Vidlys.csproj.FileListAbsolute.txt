@@ -1,0 +1,201 @@
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\ApplicationInsights.config
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\roslyn\csc.exe
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\roslyn\csc.exe.config
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\roslyn\csc.rsp
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\roslyn\csi.exe
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\roslyn\csi.rsp
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\roslyn\System.AppContext.dll
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\roslyn\System.Collections.Immutable.dll
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\roslyn\System.Diagnostics.StackTrace.dll
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\roslyn\System.IO.FileSystem.dll
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\roslyn\System.IO.FileSystem.Primitives.dll
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\roslyn\vbc.exe
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\roslyn\vbc.exe.config
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\roslyn\vbc.rsp
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\roslyn\VBCSCompiler.exe
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\roslyn\VBCSCompiler.exe.config
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\Vidlys.dll.config
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\Vidlys.dll
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\Vidlys.pdb
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\Antlr3.Runtime.dll
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\EntityFramework.dll
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\EntityFramework.SqlServer.dll
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\Microsoft.AI.Web.dll
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\Microsoft.AI.WindowsServer.dll
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\Microsoft.ApplicationInsights.dll
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\Microsoft.Owin.dll
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\Microsoft.Owin.Security.dll
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\Microsoft.Owin.Security.Google.dll
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\Microsoft.Web.Infrastructure.dll
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\Newtonsoft.Json.dll
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\Owin.dll
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\System.Web.Helpers.dll
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\System.Web.Mvc.dll
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\System.Web.Optimization.dll
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\System.Web.Razor.dll
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\System.Web.WebPages.Deployment.dll
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\System.Web.WebPages.dll
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\System.Web.WebPages.Razor.dll
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\WebGrease.dll
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\System.Web.Helpers.xml
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\System.Web.Mvc.xml
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\System.Web.Optimization.xml
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\System.Web.Razor.xml
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\System.Web.WebPages.xml
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\System.Web.WebPages.Deployment.xml
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\System.Web.WebPages.Razor.xml
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\Antlr3.Runtime.pdb
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\Newtonsoft.Json.xml
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\EntityFramework.xml
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\EntityFramework.SqlServer.xml
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\Microsoft.Owin.xml
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\Microsoft.Owin.Security.xml
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\Microsoft.Owin.Security.Google.xml
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\Microsoft.ApplicationInsights.xml
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\Microsoft.AI.WindowsServer.xml
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\Microsoft.AI.Web.xml
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\obj\Debug\Vidlys.dll
+c:\users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\obj\Debug\Vidlys.pdb
+C:\Users\eflores\Documents\Visual Studio 2017\Projects\Vidlys\Vidlys\obj\Debug\Vidlys.csprojResolveAssemblyReference.cache
+C:\Users\eflores\Documents\Visual Studio 2017\Projects\Vidlys\Vidlys\obj\Debug\Vidlys.Migrations.InitialModel.resources
+C:\Users\eflores\Documents\Visual Studio 2017\Projects\Vidlys\Vidlys\obj\Debug\Vidlys.csproj.GenerateResource.Cache
+C:\Users\eflores\Documents\Visual Studio 2017\Projects\Vidlys\Vidlys\obj\Debug\Vidlys.Migrations.AddIsSuscribedToCustomer.resources
+C:\Users\eflores\Documents\Visual Studio 2017\Projects\Vidlys\Vidlys\obj\Debug\Vidlys.Migrations.AddMembershipType.resources
+D:\Workspaces\Vidlys\Vidlys\bin\ApplicationInsights.config
+D:\Workspaces\Vidlys\Vidlys\bin\roslyn\csc.exe
+D:\Workspaces\Vidlys\Vidlys\bin\roslyn\csc.exe.config
+D:\Workspaces\Vidlys\Vidlys\bin\roslyn\csc.rsp
+D:\Workspaces\Vidlys\Vidlys\bin\roslyn\csi.exe
+D:\Workspaces\Vidlys\Vidlys\bin\roslyn\csi.rsp
+D:\Workspaces\Vidlys\Vidlys\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Workspaces\Vidlys\Vidlys\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Workspaces\Vidlys\Vidlys\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Workspaces\Vidlys\Vidlys\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Workspaces\Vidlys\Vidlys\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Workspaces\Vidlys\Vidlys\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Workspaces\Vidlys\Vidlys\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Workspaces\Vidlys\Vidlys\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Workspaces\Vidlys\Vidlys\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Workspaces\Vidlys\Vidlys\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Workspaces\Vidlys\Vidlys\bin\roslyn\System.AppContext.dll
+D:\Workspaces\Vidlys\Vidlys\bin\roslyn\System.Collections.Immutable.dll
+D:\Workspaces\Vidlys\Vidlys\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Workspaces\Vidlys\Vidlys\bin\roslyn\System.IO.FileSystem.dll
+D:\Workspaces\Vidlys\Vidlys\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Workspaces\Vidlys\Vidlys\bin\roslyn\System.Reflection.Metadata.dll
+D:\Workspaces\Vidlys\Vidlys\bin\roslyn\vbc.exe
+D:\Workspaces\Vidlys\Vidlys\bin\roslyn\vbc.exe.config
+D:\Workspaces\Vidlys\Vidlys\bin\roslyn\vbc.rsp
+D:\Workspaces\Vidlys\Vidlys\bin\roslyn\VBCSCompiler.exe
+D:\Workspaces\Vidlys\Vidlys\bin\roslyn\VBCSCompiler.exe.config
+D:\Workspaces\Vidlys\Vidlys\bin\Vidlys.dll.config
+D:\Workspaces\Vidlys\Vidlys\bin\Vidlys.dll
+D:\Workspaces\Vidlys\Vidlys\bin\Vidlys.pdb
+D:\Workspaces\Vidlys\Vidlys\bin\Antlr3.Runtime.dll
+D:\Workspaces\Vidlys\Vidlys\bin\EntityFramework.dll
+D:\Workspaces\Vidlys\Vidlys\bin\EntityFramework.SqlServer.dll
+D:\Workspaces\Vidlys\Vidlys\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Workspaces\Vidlys\Vidlys\bin\Microsoft.AI.DependencyCollector.dll
+D:\Workspaces\Vidlys\Vidlys\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Workspaces\Vidlys\Vidlys\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Workspaces\Vidlys\Vidlys\bin\Microsoft.AI.Web.dll
+D:\Workspaces\Vidlys\Vidlys\bin\Microsoft.AI.WindowsServer.dll
+D:\Workspaces\Vidlys\Vidlys\bin\Microsoft.ApplicationInsights.dll
+D:\Workspaces\Vidlys\Vidlys\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Workspaces\Vidlys\Vidlys\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Workspaces\Vidlys\Vidlys\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Workspaces\Vidlys\Vidlys\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Workspaces\Vidlys\Vidlys\bin\Microsoft.Owin.dll
+D:\Workspaces\Vidlys\Vidlys\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Workspaces\Vidlys\Vidlys\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Workspaces\Vidlys\Vidlys\bin\Microsoft.Owin.Security.dll
+D:\Workspaces\Vidlys\Vidlys\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Workspaces\Vidlys\Vidlys\bin\Microsoft.Owin.Security.Google.dll
+D:\Workspaces\Vidlys\Vidlys\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Workspaces\Vidlys\Vidlys\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Workspaces\Vidlys\Vidlys\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Workspaces\Vidlys\Vidlys\bin\Microsoft.Web.Infrastructure.dll
+D:\Workspaces\Vidlys\Vidlys\bin\Newtonsoft.Json.dll
+D:\Workspaces\Vidlys\Vidlys\bin\Owin.dll
+D:\Workspaces\Vidlys\Vidlys\bin\System.Web.Helpers.dll
+D:\Workspaces\Vidlys\Vidlys\bin\System.Web.Mvc.dll
+D:\Workspaces\Vidlys\Vidlys\bin\System.Web.Optimization.dll
+D:\Workspaces\Vidlys\Vidlys\bin\System.Web.Razor.dll
+D:\Workspaces\Vidlys\Vidlys\bin\System.Web.WebPages.Deployment.dll
+D:\Workspaces\Vidlys\Vidlys\bin\System.Web.WebPages.dll
+D:\Workspaces\Vidlys\Vidlys\bin\System.Web.WebPages.Razor.dll
+D:\Workspaces\Vidlys\Vidlys\bin\WebGrease.dll
+D:\Workspaces\Vidlys\Vidlys\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Workspaces\Vidlys\Vidlys\bin\System.Web.Helpers.xml
+D:\Workspaces\Vidlys\Vidlys\bin\System.Web.Mvc.xml
+D:\Workspaces\Vidlys\Vidlys\bin\System.Web.Optimization.xml
+D:\Workspaces\Vidlys\Vidlys\bin\System.Web.Razor.xml
+D:\Workspaces\Vidlys\Vidlys\bin\System.Web.WebPages.xml
+D:\Workspaces\Vidlys\Vidlys\bin\System.Web.WebPages.Deployment.xml
+D:\Workspaces\Vidlys\Vidlys\bin\System.Web.WebPages.Razor.xml
+D:\Workspaces\Vidlys\Vidlys\bin\Antlr3.Runtime.pdb
+D:\Workspaces\Vidlys\Vidlys\bin\Newtonsoft.Json.xml
+D:\Workspaces\Vidlys\Vidlys\bin\EntityFramework.xml
+D:\Workspaces\Vidlys\Vidlys\bin\EntityFramework.SqlServer.xml
+D:\Workspaces\Vidlys\Vidlys\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Workspaces\Vidlys\Vidlys\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Workspaces\Vidlys\Vidlys\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Workspaces\Vidlys\Vidlys\bin\Microsoft.Owin.xml
+D:\Workspaces\Vidlys\Vidlys\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Workspaces\Vidlys\Vidlys\bin\Microsoft.Owin.Security.xml
+D:\Workspaces\Vidlys\Vidlys\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Workspaces\Vidlys\Vidlys\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Workspaces\Vidlys\Vidlys\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Workspaces\Vidlys\Vidlys\bin\Microsoft.Owin.Security.Google.xml
+D:\Workspaces\Vidlys\Vidlys\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Workspaces\Vidlys\Vidlys\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Workspaces\Vidlys\Vidlys\bin\Microsoft.ApplicationInsights.xml
+D:\Workspaces\Vidlys\Vidlys\bin\Microsoft.AI.DependencyCollector.xml
+D:\Workspaces\Vidlys\Vidlys\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Workspaces\Vidlys\Vidlys\bin\Microsoft.AI.WindowsServer.xml
+D:\Workspaces\Vidlys\Vidlys\bin\Microsoft.AI.Web.xml
+D:\Workspaces\Vidlys\Vidlys\obj\Debug\Vidlys.csprojResolveAssemblyReference.cache
+D:\Workspaces\Vidlys\Vidlys\obj\Debug\Vidlys.Migrations.InitialModel.resources
+D:\Workspaces\Vidlys\Vidlys\obj\Debug\Vidlys.Migrations.AddIsSuscribedToCustomer.resources
+D:\Workspaces\Vidlys\Vidlys\obj\Debug\Vidlys.Migrations.AddMembershipType.resources
+D:\Workspaces\Vidlys\Vidlys\obj\Debug\Vidlys.Migrations.ApplyAnnotationToCustomers.resources
+D:\Workspaces\Vidlys\Vidlys\obj\Debug\Vidlys.csproj.GenerateResource.Cache
+D:\Workspaces\Vidlys\Vidlys\obj\Debug\Vidlys.dll
+D:\Workspaces\Vidlys\Vidlys\obj\Debug\Vidlys.pdb
