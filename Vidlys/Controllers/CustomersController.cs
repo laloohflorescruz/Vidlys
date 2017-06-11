@@ -5,41 +5,44 @@ using System.Web;
 using System.Web.Mvc;
 using Vidlys.Models;
 using Vidlys.ViewModels;
+using System.Data.Entity;
 
 namespace Vidlys.Controllers
 {
     public class CustomersController : Controller
     {
         // GET: Customers
-     
 
-            public ViewResult Index()
-            {
-                var customers = GetCustomers();
+        private ApplicationDbContext _context;
 
-                return View(customers);
-            }
+        public CustomersController()
+        {
+            _context = new ApplicationDbContext();
 
-            public ActionResult Details(int? id)
-            {
-            var customer = GetCustomers().SingleOrDefault(c => c.Id == id);
+        }
+        protected override void Dispose(bool disposing)
+        {
+            _context.Dispose();
+        }
+
+        public ViewResult Index()
+        {
+            var customers = _context.Customers.Include(c => c.MembershipType).ToList();
+
+            return View(customers);
+        }
+
+        public ActionResult Details(int? id)
+        {
+            var customer = _context.Customers.SingleOrDefault(c => c.Id == id);
 
             if (id == null)
             {
-                return Content("Seleccione un Id valido");
+                return Content("Seleccione un Id válido");
             }
             if (customer == null) return HttpNotFound();
 
-                return View(customer);
-            }
-
-            private IEnumerable<Customer> GetCustomers()
-            {
-                return new List<Customer>
-            {
-                new Customer { Id = 1, Name = "John Smith" },
-                new Customer { Id = 2, Name = "Mary Williams" }
-            };
-            }
+            return View(customer);
         }
     }
+}
