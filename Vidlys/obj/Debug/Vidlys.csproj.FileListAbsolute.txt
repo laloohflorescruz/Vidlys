@@ -199,3 +199,5 @@ D:\Workspaces\Vidlys\Vidlys\obj\Debug\Vidlys.Migrations.ApplyAnnotationToCustome
 D:\Workspaces\Vidlys\Vidlys\obj\Debug\Vidlys.csproj.GenerateResource.Cache
 D:\Workspaces\Vidlys\Vidlys\obj\Debug\Vidlys.dll
 D:\Workspaces\Vidlys\Vidlys\obj\Debug\Vidlys.pdb
+C:\Users\eflores\Documents\Visual Studio 2017\Projects\Vidlys\Vidlys\obj\Debug\Vidlys.Migrations.ApplyAnnotationToCustomers.resources
+C:\Users\eflores\Documents\Visual Studio 2017\Projects\Vidlys\Vidlys\obj\Debug\Vidlys.Migrations.AddednewfieldstoMovies.resources
