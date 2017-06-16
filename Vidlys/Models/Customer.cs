@@ -15,8 +15,11 @@ namespace Vidlys.Models
 
         public bool IsSuscribedToNewsLetter { get; set; }
 
+        
         public MembershipType MembershipType { get; set; }
 
         public byte MembershipTypeId { get; set; }
+
+        public DateTime? Birthday { get; set; }
     }
 }

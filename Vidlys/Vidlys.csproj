@@ -216,6 +216,10 @@
     <Compile Include="Migrations\201706121930329_Added new fields to Movies.Designer.cs">
       <DependentUpon>201706121930329_Added new fields to Movies.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201706161850525_Birtday field, Membershiptype name added.cs" />
+    <Compile Include="Migrations\201706161850525_Birtday field, Membershiptype name added.Designer.cs">
+      <DependentUpon>201706161850525_Birtday field, Membershiptype name added.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -225,7 +229,7 @@
     <Compile Include="Models\Movie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
-    <Compile Include="ViewModels\CustomersListViewModel.cs" />
+    <Compile Include="ViewModels\CustomerFormViewModel.cs" />
     <Compile Include="ViewModels\RandomMovieViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -291,6 +295,7 @@
     <Content Include="Views\Customers\Details.cshtml" />
     <Content Include="Views\Movies\Index.cshtml" />
     <Content Include="Views\Movies\Details.cshtml" />
+    <Content Include="Views\Customers\CustomerForm.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -325,6 +330,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201706121930329_Added new fields to Movies.resx">
       <DependentUpon>201706121930329_Added new fields to Movies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706161850525_Birtday field, Membershiptype name added.resx">
+      <DependentUpon>201706161850525_Birtday field, Membershiptype name added.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

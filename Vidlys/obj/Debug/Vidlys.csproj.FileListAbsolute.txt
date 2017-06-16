@@ -201,3 +201,4 @@ D:\Workspaces\Vidlys\Vidlys\obj\Debug\Vidlys.dll
 D:\Workspaces\Vidlys\Vidlys\obj\Debug\Vidlys.pdb
 C:\Users\eflores\Documents\Visual Studio 2017\Projects\Vidlys\Vidlys\obj\Debug\Vidlys.Migrations.ApplyAnnotationToCustomers.resources
 C:\Users\eflores\Documents\Visual Studio 2017\Projects\Vidlys\Vidlys\obj\Debug\Vidlys.Migrations.AddednewfieldstoMovies.resources
+C:\Users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\obj\Debug\Vidlys.Migrations.BirtdayfieldMembershiptypenameadded.resources

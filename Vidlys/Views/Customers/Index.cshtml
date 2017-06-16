@@ -18,16 +18,16 @@ else
     <table class="table table-bordered table-striped">
         <thead>
             <tr>
-                <td>Clientes</td>
-                <td>Descuento</td>
+                <td>Customer</td>
+                <td>Membership Type</td>
             </tr>
         </thead>
         <tbody>
             @foreach (var customer in Model)
             {
                 <tr>
-                    <td>@Html.ActionLink(customer.Name, "Details", "Customers", new { id = customer.Id }, null)</td>
-                    <td>@customer.MembershipType.DiscountRate%</td>
+                    <td>@Html.ActionLink(customer.Name, "Edit", "Customers", new { id = customer.Id }, null)</td>
+                    <td>@customer.MembershipType.Name</td>
 
                 </tr>
             }
