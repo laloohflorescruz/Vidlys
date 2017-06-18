@@ -190,39 +190,16 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\CustomersController.cs" />
+    <Compile Include="Controllers\GenreController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\MoviesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201706091600029_InitialModel.cs" />
-    <Compile Include="Migrations\201706091600029_InitialModel.Designer.cs">
-      <DependentUpon>201706091600029_InitialModel.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201706091607572_AddIsSuscribedToCustomer.cs" />
-    <Compile Include="Migrations\201706091607572_AddIsSuscribedToCustomer.Designer.cs">
-      <DependentUpon>201706091607572_AddIsSuscribedToCustomer.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201706091612575_AddMembershipType.cs" />
-    <Compile Include="Migrations\201706091612575_AddMembershipType.Designer.cs">
-      <DependentUpon>201706091612575_AddMembershipType.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201706091622146_ApplyAnnotationToCustomers.cs" />
-    <Compile Include="Migrations\201706091622146_ApplyAnnotationToCustomers.Designer.cs">
-      <DependentUpon>201706091622146_ApplyAnnotationToCustomers.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201706121930329_Added new fields to Movies.cs" />
-    <Compile Include="Migrations\201706121930329_Added new fields to Movies.Designer.cs">
-      <DependentUpon>201706121930329_Added new fields to Movies.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201706161850525_Birtday field, Membershiptype name added.cs" />
-    <Compile Include="Migrations\201706161850525_Birtday field, Membershiptype name added.Designer.cs">
-      <DependentUpon>201706161850525_Birtday field, Membershiptype name added.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -296,6 +273,7 @@
     <Content Include="Views\Movies\Index.cshtml" />
     <Content Include="Views\Movies\Details.cshtml" />
     <Content Include="Views\Customers\CustomerForm.cshtml" />
+    <Content Include="Views\Movies\MovieForm.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -314,26 +292,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Scripts\jquery-1.10.2.min.map" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\201706091600029_InitialModel.resx">
-      <DependentUpon>201706091600029_InitialModel.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201706091607572_AddIsSuscribedToCustomer.resx">
-      <DependentUpon>201706091607572_AddIsSuscribedToCustomer.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201706091612575_AddMembershipType.resx">
-      <DependentUpon>201706091612575_AddMembershipType.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201706091622146_ApplyAnnotationToCustomers.resx">
-      <DependentUpon>201706091622146_ApplyAnnotationToCustomers.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201706121930329_Added new fields to Movies.resx">
-      <DependentUpon>201706121930329_Added new fields to Movies.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201706161850525_Birtday field, Membershiptype name added.resx">
-      <DependentUpon>201706161850525_Birtday field, Membershiptype name added.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -191,12 +191,6 @@ D:\Workspaces\Vidlys\Vidlys\bin\Microsoft.AI.DependencyCollector.xml
 D:\Workspaces\Vidlys\Vidlys\bin\Microsoft.AI.ServerTelemetryChannel.xml
 D:\Workspaces\Vidlys\Vidlys\bin\Microsoft.AI.WindowsServer.xml
 D:\Workspaces\Vidlys\Vidlys\bin\Microsoft.AI.Web.xml
-D:\Workspaces\Vidlys\Vidlys\obj\Debug\Vidlys.csprojResolveAssemblyReference.cache
-D:\Workspaces\Vidlys\Vidlys\obj\Debug\Vidlys.Migrations.InitialModel.resources
-D:\Workspaces\Vidlys\Vidlys\obj\Debug\Vidlys.Migrations.AddIsSuscribedToCustomer.resources
-D:\Workspaces\Vidlys\Vidlys\obj\Debug\Vidlys.Migrations.AddMembershipType.resources
-D:\Workspaces\Vidlys\Vidlys\obj\Debug\Vidlys.Migrations.ApplyAnnotationToCustomers.resources
-D:\Workspaces\Vidlys\Vidlys\obj\Debug\Vidlys.csproj.GenerateResource.Cache
 D:\Workspaces\Vidlys\Vidlys\obj\Debug\Vidlys.dll
 D:\Workspaces\Vidlys\Vidlys\obj\Debug\Vidlys.pdb
 C:\Users\eflores\Documents\Visual Studio 2017\Projects\Vidlys\Vidlys\obj\Debug\Vidlys.Migrations.ApplyAnnotationToCustomers.resources
