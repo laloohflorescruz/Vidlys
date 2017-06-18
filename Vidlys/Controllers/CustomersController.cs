@@ -31,8 +31,20 @@ namespace Vidlys.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public ActionResult Save(Customer customer)
         {
+            if (!ModelState.IsValid)
+            {
+                var viewModel = new CustomerFormViewModel
+                {
+                    Customer = customer,
+                    MembershipType = _context.MembershipTypes.ToList()
+                };
+
+                return View("CustomerForm", viewModel);
+
+            }
             if (customer.Id == 0)
             {
                 _context.Customers.Add(customer);
@@ -40,10 +52,9 @@ namespace Vidlys.Controllers
             else
             {
                 var customerInDb = _context.Customers.Single(c => c.Id == customer.Id);
-                // TryUpdateModel(customerInDb);
                 customerInDb.Name = customer.Name;
-                customerInDb.Birthday = customer.Birthday;
                 customerInDb.MembershipTypeId = customer.MembershipTypeId;
+                customerInDb.Birthday = customer.Birthday;
                 customerInDb.IsSuscribedToNewsLetter = customer.IsSuscribedToNewsLetter;
             }
             _context.SaveChanges();
@@ -56,6 +67,7 @@ namespace Vidlys.Controllers
             var membershipTypes = _context.MembershipTypes.ToList();
             var viewModel = new CustomerFormViewModel
             {
+                Customer= new Customer(),
                 MembershipType = membershipTypes
             };
 

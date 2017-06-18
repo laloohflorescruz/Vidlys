@@ -9,7 +9,8 @@ namespace Vidlys.Models
     public class Customer
     {
         public int Id { get; set; }
-        [Required]
+
+        [Required(ErrorMessage ="Please enter a valid name")]
         [StringLength(255)]
         public string Name { get; set; }
 
@@ -20,6 +21,8 @@ namespace Vidlys.Models
 
         public byte MembershipTypeId { get; set; }
 
+        [Min18YearsIfAMember]
         public DateTime? Birthday { get; set; }
+
     }
 }
