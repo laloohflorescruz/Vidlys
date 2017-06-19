@@ -10,6 +10,5 @@ namespace Vidlys.Models
         public int Stock { get; set; }
         public Genre Genre { get; set; }
         public int GenreId { get; set; }
-
     }
 }
