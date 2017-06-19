@@ -70,7 +70,6 @@ namespace Vidlys.Controllers
                 Customer= new Customer(),
                 MembershipType = membershipTypes
             };
-
             return View("CustomerForm", viewModel);
         }
 

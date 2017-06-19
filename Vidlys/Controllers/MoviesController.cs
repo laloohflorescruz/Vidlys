@@ -64,7 +64,7 @@ namespace Vidlys.Controllers
             }
             _context.SaveChanges();
 
-            return View("Index","Movies");
+            return RedirectToAction("Index","Movies");
         }
 
         public ActionResult Edit(int id)
@@ -72,9 +72,12 @@ namespace Vidlys.Controllers
             var movie = _context.Movies.SingleOrDefault(m => m.Id == id);
             if (movie == null) return HttpNotFound();
 
-            var viewModel = new RandomMovieViewModel
+            var viewModel = new RandomMovieViewModel(movie)
             {
-                Movie = movie,
+                //Id = movie.Id,
+                //Name= movie.Name,
+                //Release = movie.Release,
+                //Stock = movie.Stock,
                 Genre = _context.Genre.ToList()
             };
             return View("MovieForm", viewModel);
