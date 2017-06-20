@@ -202,3 +202,11 @@ C:\Users\eflores\Documents\Visual Studio 2017\Projects\Vidlys\Vidlys\obj\Debug\V
 C:\Users\eflores\Documents\Visual Studio 2017\Projects\Vidlys\Vidlys\obj\Debug\Vidlys.dll
 C:\Users\eflores\Documents\Visual Studio 2017\Projects\Vidlys\Vidlys\obj\Debug\Vidlys.pdb
 C:\Users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\obj\Debug\Vidlys.csprojResolveAssemblyReference.cache
+D:\Workspaces\Vidlys\Vidlys\bin\AutoMapper.dll
+D:\Workspaces\Vidlys\Vidlys\bin\System.Net.Http.Formatting.dll
+D:\Workspaces\Vidlys\Vidlys\bin\System.Web.Http.dll
+D:\Workspaces\Vidlys\Vidlys\bin\System.Web.Http.WebHost.dll
+D:\Workspaces\Vidlys\Vidlys\bin\AutoMapper.xml
+D:\Workspaces\Vidlys\Vidlys\bin\System.Net.Http.Formatting.xml
+D:\Workspaces\Vidlys\Vidlys\bin\System.Web.Http.xml
+D:\Workspaces\Vidlys\Vidlys\bin\System.Web.Http.WebHost.xml
