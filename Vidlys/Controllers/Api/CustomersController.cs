@@ -6,6 +6,7 @@ using System.Net;
 using System.Web.Http;
 using Vidlys.DTO;
 using Vidlys.Models;
+using System.Data.Entity;
 
 namespace Vidlys.Controllers.Api
 {
@@ -17,12 +18,19 @@ namespace Vidlys.Controllers.Api
         {
             _context = new ApplicationDbContext();
         }
-
-        //GET/1 api/customers/
-        public IEnumerable<CustomerDTO> GetCustomers()
+ 
+        public IHttpActionResult GetCustomers()
         {
-            return _context.Customers.ToList().Select(Mapper.Map<Customer, CustomerDTO>);
+            var customerDtos = _context.Customers
+                .Include(c => c.MembershipType)
+                .ToList()
+                .Select(Mapper.Map<Customer, CustomerDTO>);
+
+            return Ok(customerDtos);
         }
+
+
+       
 
         //GET ALL /api/customers/1
         public IHttpActionResult GetCustomer(int id)

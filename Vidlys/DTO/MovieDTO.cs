@@ -8,8 +8,16 @@ namespace Vidlys.DTO
     public class MovieDTO
     {
         public int Id { get; set; }
+
         public string Name { get; set; }
+
         public DateTime Release { get; set; }
+
         public int Stock { get; set; }
+
+        public int GenreId { get; set; }
+
+        public GenreDTO Genre { get; set; }
+
     }
 }
