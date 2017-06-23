@@ -79,6 +79,10 @@ namespace Vidlys.Models
         [Display(Name = "Confirm password")]
         [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
         public string ConfirmPassword { get; set; }
+
+        [Display(Name = "Driving License")]
+        public string DrivingLicense { get; set; }
+
     }
 
     public class ResetPasswordViewModel
