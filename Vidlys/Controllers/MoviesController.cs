@@ -86,6 +86,7 @@ namespace Vidlys.Controllers
                 //Stock = movie.Stock,
                 Genre = _context.Genre.ToList()
             };
+
             return View("MovieForm", viewModel);
         }
 

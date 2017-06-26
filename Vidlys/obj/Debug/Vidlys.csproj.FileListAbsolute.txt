@@ -99,5 +99,7 @@ C:\Users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\Microso
 C:\Users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\Microsoft.AI.ServerTelemetryChannel.xml
 C:\Users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\Microsoft.AI.WindowsServer.xml
 C:\Users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\bin\Microsoft.AI.Web.xml
+C:\Users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\obj\Debug\Vidlys.Migrations.Rentalmovie.resources
+C:\Users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\obj\Debug\Vidlys.csproj.GenerateResource.Cache
 C:\Users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\obj\Debug\Vidlys.dll
 C:\Users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\obj\Debug\Vidlys.pdb
