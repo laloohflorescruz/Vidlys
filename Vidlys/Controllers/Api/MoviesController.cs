@@ -27,8 +27,9 @@ namespace Vidlys.Controllers.Api
 
             if (!String.IsNullOrWhiteSpace(query))
                 moviesQuery = moviesQuery.Where(m => m.Name.Contains(query));
-            return moviesQuery.ToList()
-                
+
+            return moviesQuery
+                .ToList()                
                 .Select(Mapper.Map<Movie, MovieDTO>);
         }
 
@@ -36,7 +37,6 @@ namespace Vidlys.Controllers.Api
         {
             var movie = _context.Movies.SingleOrDefault(c => c.Id == id);
             if (movie == null)
-
                 return NotFound();
 
             return Ok(Mapper.Map<Movie, MovieDTO>(movie));
