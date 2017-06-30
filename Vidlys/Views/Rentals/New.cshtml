@@ -10,14 +10,14 @@
     <div class="form-group">
         <label>Customer</label>
         <div class="tt-container">
-            <input id="customer" required type="text"  data-rule-validCustomer="true" value="" class="form-control" />
+            <input id="customer"  name="customer" required type="text"  data-rule-validCustomer="true" value="" class="form-control" />
         </div>
     </div>
 
     <div class="form-group">
         <label>Movie</label>
         <div class="tt-container">
-            <input id="movie" type="text" value="" class="form-control" />
+            <input id="movie" type="text" data-rule-atLeastOneMovie="true"  name="movie" value="" class="form-control" />
         </div>
     </div>
 
@@ -76,7 +76,7 @@
                 source: movies
             }).on("typeahead:select", function (e, movie) {
                 $("#movies").append("<li class='list-group-item'>" + movie.name + "</li>");
-                //$("#movies").append("<li>" + movie.name + "</li>");
+
                 $("#movie").typeahead("val", "");
 
                 vm.movieIds.push(movie.id);
@@ -84,7 +84,22 @@
 
             $.validator.addMethod("validCustomer", function () {
                 return vm.customerId && vm.customerId !== 0;
-            }, "Please select a valid customer");
+            }, "Please select a valid customer.");
+
+            $.validator.addMethod("atLeastOneMovie", function () {
+                return vm.movieIds.length > 0;
+            }, "Please select at least one movie.");
+
+            var validator = $("#newRental").validate(
+                {
+                    submitHandler: function () {
+                        $.ajax({
+                            url: "/api/newRentals",
+                            method: "post",
+                            data: vm
+                        })
+                    }
+                })
 
             $("#newRental").validate({
 
@@ -92,13 +107,19 @@
                 {
                     e.preventDefault();
                     $.ajax({
-                        url: "/api/NewRentals",
+                        url: "/api/newRentals",
                         method: "post",
                         data: vm
                     })
                         .done(function () {
-                            // console.log("done");
                             toastr.success("Rentals successfully recorded");
+
+                            $("$customer").typeahead("val", "");
+                            $("movie").typeahead("val", "");
+                            $("movies").empty();
+
+                            vm = { movieIds: [] };
+                            validator.resetForm();
                         })
                         .fail(function () {
                             toastr.error("Something wrong...");

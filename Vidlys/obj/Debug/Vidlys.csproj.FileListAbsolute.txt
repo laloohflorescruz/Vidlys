@@ -103,3 +103,4 @@ C:\Users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\obj\Debug\V
 C:\Users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\obj\Debug\Vidlys.csproj.GenerateResource.Cache
 C:\Users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\obj\Debug\Vidlys.dll
 C:\Users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\obj\Debug\Vidlys.pdb
+C:\Users\eflores\documents\visual studio 2017\Projects\Vidlys\Vidlys\obj\Debug\Vidlys.csprojResolveAssemblyReference.cache
