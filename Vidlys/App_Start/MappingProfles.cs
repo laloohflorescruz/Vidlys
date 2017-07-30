@@ -9,10 +9,10 @@ namespace Vidlys.App_Start
         public MappingProfles()
         {
             Mapper.CreateMap<Customer, CustomerDTO>();
-            Mapper.CreateMap<CustomerDTO, Customer>();
-
             Mapper.CreateMap<Movie, MovieDTO>();
-            Mapper.CreateMap<MovieDTO, Movie>();
+            Mapper.CreateMap<MembershipType, MembershiptypeDTO>();
+            Mapper.CreateMap<Genre, GenreDTO>();
+            Mapper.CreateMap<Rental, NewRentalDTO>();
         }
     }
 }

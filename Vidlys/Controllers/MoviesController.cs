@@ -18,9 +18,12 @@ namespace Vidlys.Controllers
 
         public ViewResult Index()
         {
-            var movies = _context.Movies.Include(c => c.Genre).ToList();
+            if (User.IsInRole(RoleName.CanManageMovies))
+                return View("List");
+            
+            //var movies = _context.Movies.Include(c => c.Genre).ToList();
 
-            return View(movies);
+            return View("ReadOnlyList");
         }
 
         protected override void Dispose(bool disposing)
@@ -28,9 +31,11 @@ namespace Vidlys.Controllers
             _context.Dispose();
         }
 
-        public ActionResult New()
+        [Authorize(Roles=RoleName.CanManageMovies)]
+        public ViewResult New()
         {
             var genre = _context.Genre.ToList();
+
             var viewModel = new RandomMovieViewModel
             {
                 Genre = genre
@@ -67,6 +72,7 @@ namespace Vidlys.Controllers
             return RedirectToAction("Index","Movies");
         }
 
+        [Authorize(Roles = RoleName.CanManageMovies)]
         public ActionResult Edit(int id)
         {
             var movie = _context.Movies.SingleOrDefault(m => m.Id == id);
@@ -80,6 +86,7 @@ namespace Vidlys.Controllers
                 //Stock = movie.Stock,
                 Genre = _context.Genre.ToList()
             };
+
             return View("MovieForm", viewModel);
         }
 
