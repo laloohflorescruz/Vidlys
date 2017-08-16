@@ -28,8 +28,8 @@
     <div id="createCustomerContainer"> </div>
 </div>
 
-<div class="modal fade" id="editAssetModal" tabindex="-1" role="dialog" aria-labelledby="EditAssetModal" aria-hidden="true" data-backdrop="static">
-    <div id="editAssetContainer"></div>
+<div class="modal fade" id="editCustomerModal" tabindex="-1" role="dialog" aria-labelledby="EditCustomerModal" aria-hidden="true" data-backdrop="static">
+    <div id="editCustomerContainer"></div>
 </div>
 
 <div class="modal fade" id="detailsAssetModal" tabindex="-1" role="dialog" aria-labelledby="DetailsAssetModal" aria-hidden="true" data-backdrop="static">
@@ -54,7 +54,7 @@
                         data: "name",
                         render: function (data, type, customer)
                         {
-                            return "<a href='/customers/edit/" + customer.id + "'>" + customer.name + "</a>";
+                            return "<a class='editCustomer' href='@Url.Action("edit/", "Customers")" + customer.id + "'>" + customer.name + "</a>";
                         }},{
                         data: "membershipType.name"
                     },
@@ -81,7 +81,7 @@
               });
           });
         });
-
+        //add
         $("#btnCreateCustomer").on("click", function () {
             var url = $(this).data("url");
             $.get(url, function (data) {
@@ -96,7 +96,26 @@
             }
             $('#createCustomerModal').modal('hide');
             $('#createCustomerContainer').html("");
-        } 
+        }
+        //edit
+        function UpdateCustomerSuccess(data) {
+            if (data != "success") {
+                $('#editCustomerContainer').html(data);
+                return;
+            }
+            $('#editCustomerModal').modal('hide');
+            $('#editCustomerContainer').html("");
+        }
+        $('#customers').on("click", ".editCustomer", function (event) {
+            event.preventDefault();
+            var url = $(this).attr("href");
+            $.get(url, function (data) {
+                $('#editCustomerContainer').html(data);
+                $('#editCustomerModal').modal('show');
+            });
+        });
+
+
 
         //CallBack
     </script>
