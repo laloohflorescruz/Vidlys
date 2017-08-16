@@ -1,47 +1,76 @@
 ﻿@model Vidlys.ViewModels.RandomMovieViewModel
 @{
-    ViewBag.Title = "Movie";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    Layout = null;
 }
+<script>
+    jQuery('#release_date').datetimepicker({
+        timepicker: false,
+        format: 'd/m/Y'
+    });
+</script>
 
-<h2>@Model.Title</h2>
 
-@Html.ValidationSummary(true, "Please fix the following errors.")
-@using (Html.BeginForm("Save", "Movies"))
-{
+<div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+            <h3 class="modal-title">@Model.Title</h3>
+        </div>
+        @Html.ValidationSummary(true, "Please fix the following errors.")
+        @using (Ajax.BeginForm("Save", "Movies", null, new AjaxOptions { HttpMethod = "Post", OnSuccess = "CreateMovieSuccess" }, new { role = "form" }))
+        {
+            <div class="modal-body">
+                <div class="form-group">
+                    @Html.LabelFor(m => m.Name)
+                    @Html.TextBoxFor(m => m.Name, new { @class = "form-control" })
+                </div>
 
-    <div class="form-group">
-        @Html.LabelFor(m=>m.Name)
-        @Html.TextBoxFor(m=>m.Name, new {@class = "form-control"})
+                <div class="form-group">
+                    @Html.LabelFor(m => m.Release)
+                    @Html.TextBoxFor(m => m.Release, "{0:d MMM yyyy}", new { @id = "release_date", @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.Release)
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(m => m.Stock)
+                    @Html.TextBoxFor(m => m.Stock, new { @class = "form-control" })
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(m => m.NumberAvailable)
+                    @Html.TextBoxFor(m => m.NumberAvailable, new { @class = "form-control" })
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(m => m.GenreId)
+                    @Html.DropDownListFor(m => m.GenreId, new SelectList(Model.Genre, "GenreId", "GenreName"), "Select", new { @class = "form-control" })
+                </div>
+
+                @Html.HiddenFor(m => m.Id)
+                @Html.AntiForgeryToken()
+
+
+
+                <div class="modal-footer">
+                    <div class="form-group">
+                        <div class="col-md-offset-2 col-md-10">
+                            <button type="submit" class="btn btn-danger" data-dismiss="modal">
+                                <span class="glyphicon glyphicon-log-out" aria-hidden="true"></span> Close
+                            </button>
+
+                            <button type="submit" class="btn btn-primary">
+                                <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span> Save
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        }
+        @section scripts
+            {
+            @Scripts.Render("~/bundles/jqueryval")
+        </div>
     </div>
-
-
-
-    <div class="form-group">
-        @Html.LabelFor(m => m.Release)
-        @Html.TextBoxFor(m => m.Release, "{0:d MMM yyyy}", new { @class = "form-control" })
-        @Html.ValidationMessageFor(m => m.Release)
-    </div>
-
-    <div class="form-group">
-        @Html.LabelFor(m => m.Stock)
-        @Html.TextBoxFor(m => m.Stock, new { @class = "form-control" })
-    </div>
-
-    <div class="form-group">
-        @Html.LabelFor(m => m.GenreId)
-        @Html.DropDownListFor(m => m.GenreId, new SelectList(Model.Genre, "GenreId", "GenreName"), "Select", new { @class = "form-control" })
-    </div>
-
-    @Html.HiddenFor(m => m.Id)
-    @Html.AntiForgeryToken()
-
-<button type="submit" class="btn btn-primary">Save</button>
-
-
-
-}
-@section scripts
-{
-    @Scripts.Render("~/bundles/jqueryval")
-}
+    }

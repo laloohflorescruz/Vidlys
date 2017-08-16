@@ -19,6 +19,7 @@ namespace Vidlys.ViewModels
             Name = movie.Name;
             Release = movie.Release;
             Stock = movie.Stock;
+            NumberAvailable = movie.NumberAvailable;
             GenreId = movie.GenreId;
             
         }
@@ -33,6 +34,8 @@ namespace Vidlys.ViewModels
         public DateTime? Release { get; set; }
 
         public int Stock { get; set; }
+
+        public int NumberAvailable { get; set; }
 
         public RandomMovieViewModel()
         {

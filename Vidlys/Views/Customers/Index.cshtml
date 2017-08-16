@@ -12,7 +12,7 @@
 <hr />
 
 
-    <table id="customers" class="table table-bordered table-striped">
+    <table id="customers" class="table table-bordered table-striped table-hover">
         <thead>
             <tr>
                 <th>Customer</th>
@@ -21,7 +21,6 @@
             </tr>
         </thead>
         <tbody></tbody>
-  
     </table>
 
 <div class="modal fade" id="createCustomerModal" tabindex="-1" role="dialog" aria-labelledby="CreateCustomerModal" aria-hidden="true" data-backdrop="static">
@@ -35,37 +34,33 @@
 <div class="modal fade" id="detailsAssetModal" tabindex="-1" role="dialog" aria-labelledby="DetailsAssetModal" aria-hidden="true" data-backdrop="static">
     <div id="detailsAssetContainer"></div>
 </div>
-
-<div class="modal fade" id="deleteAssetModal" tabindex="-1" role="dialog" aria-labelledby="DeleteAssetModal" aria-hidden="true" data-backdrop="static">
-    <div id="deleteAssetContainer"></div>
-</div>
-
-
+ 
 @section scripts
     {
     <script>
         $(document).ready(function () {
-          var table=  $("#customers").DataTable({
+            var table = $("#customers").DataTable({
                 ajax: {
                     url: "/api/customers",
                     dataSrc: ""
                 },
                 columns: [{
-                        data: "name",
-                        render: function (data, type, customer)
-                        {
-                            return "<a class='editCustomer' href='@Url.Action("edit/", "Customers")" + customer.id + "'>" + customer.name + "</a>";
-                        }},{
-                        data: "membershipType.name"
-                    },
-                    {
-                        data: "id",
-                        render: function (data) {
-                            return "<button class='btn-link js-delete' data-customer-id=" + data + ">Delete</button>";
-                        }
+                    data: "name",
+                    render: function (data, type, customer) {
+                        return "<a class='editCustomer' href='@Url.Action("edit/", "Customers")" + customer.id + "'>" + customer.name + "</a>";
                     }
+                }, {
+                    data: "membershipType.name"
+                },
+                {
+                    data: "id",
+                    render: function (data) {
+                        return "<button class='btn-link js-delete' data-customer-id=" + data + "><span class='glyphicon glyphicon-trash'> <span></button>";
+                    }
+                }
                 ]
-            });
+            }); 
+
           $("#customers").on("click", ".js-delete", function () {
               var button = $(this);
                  bootbox.confirm("Are you sure you want to delete this customer?", function (result) {
@@ -81,6 +76,7 @@
               });
           });
         });
+
         //add
         $("#btnCreateCustomer").on("click", function () {
             var url = $(this).data("url");
@@ -114,10 +110,6 @@
                 $('#editCustomerModal').modal('show');
             });
         });
-
-
-
-        //CallBack
     </script>
  }
 
