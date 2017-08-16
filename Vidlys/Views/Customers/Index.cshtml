@@ -5,9 +5,11 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 <h1>Customer list</h1>
-<p>@Html.ActionLink("New Customer", "New", "Customers", null, new { @class = "btn btn-primary" })</p>
-
-
+<hr />
+<button type="button" class="btn btn-primary btn-md" data-toggle="modal" data-url="@Url.Action("New","Customers")" id="btnCreateAsset">
+    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> New Customer
+</button>
+<hr />
 
 
     <table id="customers" class="table table-bordered table-striped">
@@ -21,6 +23,24 @@
         <tbody></tbody>
   
     </table>
+
+<div class="modal fade" id="createAssetModal" tabindex="-1" role="dialog" aria-labelledby="CreateAssetModal" aria-hidden="true" data-backdrop="static">
+    <div id="createAssetContainer"> </div>
+</div>
+
+<div class="modal fade" id="editAssetModal" tabindex="-1" role="dialog" aria-labelledby="EditAssetModal" aria-hidden="true" data-backdrop="static">
+    <div id="editAssetContainer"></div>
+</div>
+
+<div class="modal fade" id="detailsAssetModal" tabindex="-1" role="dialog" aria-labelledby="DetailsAssetModal" aria-hidden="true" data-backdrop="static">
+    <div id="detailsAssetContainer"></div>
+</div>
+
+<div class="modal fade" id="deleteAssetModal" tabindex="-1" role="dialog" aria-labelledby="DeleteAssetModal" aria-hidden="true" data-backdrop="static">
+    <div id="deleteAssetContainer"></div>
+</div>
+
+
 @section scripts
     {
     <script>
@@ -61,8 +81,24 @@
               });
           });
         });
+
+        $("#btnCreateAsset").on("click", function () {
+            var url = $(this).data("url");
+            $.get(url, function (data) {
+                $('#createAssetContainer').html(data);
+                $('#createAssetModal').modal('show');
+            });
+        });
+        function CreateAssetSuccess(data) {
+            if (data != "success") {
+                $('#createAssetContainer').html(data);
+                return;
+            }
+            $('#createAssetModal').modal('hide');
+            $('#createAssetContainer').html("");
+        }
     </script>
-}
+ }
 
 
 
