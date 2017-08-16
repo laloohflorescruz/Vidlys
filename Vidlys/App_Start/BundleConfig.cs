@@ -17,6 +17,7 @@ namespace Vidlys
                         "~/Scripts/datatables/jquery.dataTables.js",
                         "~/Scripts/datatables/dataTables.bootstrap.js",
                         "~/scripts/datatables/datatables.bootstrap.js",
+                        "~/scripts/jquery.datetimepicker.js",
                         "~/scripts/typeahead.bundle.js"
 
                       ));
@@ -36,7 +37,8 @@ namespace Vidlys
                       "~/Content/DataTables/css/dataTables.bootstrap.css",
                       "~/content/typeahead.css",
                        "~/content/toastr.css",
-                      "~/Content/site.css"));
+                      "~/Content/site.css",
+                      "~/Content/jquery.datetimepicker.css"));
         }
     }
 }

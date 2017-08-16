@@ -2,13 +2,19 @@
 @{
     Layout = null;
 }
+<script>
+    jQuery('#birthday_pick').datetimepicker({
+        timepicker: false,
+        format: 'd/m/Y'
+    });
+</script>
 <div class="modal-dialog">
     <div class="modal-content">
         <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
             <h3 class="modal-title">Add customer</h3>
         </div>
-        @using (Ajax.BeginForm("Save", "Customers", null, new AjaxOptions { HttpMethod = "Post", OnSuccess = "CreateAssetSuccess" }, new { role = "form" }))
+        @using (Ajax.BeginForm("Save", "Customers", null, new AjaxOptions { HttpMethod = "Post", OnSuccess = "CreateCustomerSuccess" }, new { role = "form" }))
         {
             <div class="modal-body">
                 <div class="col-md-6">
@@ -26,7 +32,7 @@
 
                     <div class="form-group">
                         @Html.LabelFor(m => m.Customer.Birthday)
-                        @Html.TextBoxFor(m => m.Customer.Birthday, "{0:d MMMyyyy}", new { @class = "form-control" })
+                        @Html.TextBoxFor(m => m.Customer.Birthday, "{0:d MMMyyyy}", new {@id= "birthday_pick", @class = "form-control" })
                         @Html.ValidationMessageFor(m => m.Customer.Birthday)
                     </div>
 
@@ -42,7 +48,7 @@
                     <div class="form-group">
                         <div class="col-md-offset-2 col-md-10">
                             <button type="submit" class="btn btn-danger" data-dismiss="modal">
-                                <span class="glyphicon glyphicon-backward" aria-hidden="true"></span> Close</button>
+                                <span class="glyphicon glyphicon-log-out" aria-hidden="true"></span> Close</button>
 
                             <button type="submit" class="btn btn-primary">
                                 <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span> Save</button>

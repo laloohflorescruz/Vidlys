@@ -6,8 +6,8 @@
 }
 <h1>Customer list</h1>
 <hr />
-<button type="button" class="btn btn-primary btn-md" data-toggle="modal" data-url="@Url.Action("New","Customers")" id="btnCreateAsset">
-    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> New Customer
+<button type="button" class="btn btn-primary btn-md" data-toggle="modal" data-url="@Url.Action("New","Customers")" id="btnCreateCustomer">
+    <span class="glyphicon glyphicon-user" aria-hidden="true"></span>  New Customer
 </button>
 <hr />
 
@@ -24,8 +24,8 @@
   
     </table>
 
-<div class="modal fade" id="createAssetModal" tabindex="-1" role="dialog" aria-labelledby="CreateAssetModal" aria-hidden="true" data-backdrop="static">
-    <div id="createAssetContainer"> </div>
+<div class="modal fade" id="createCustomerModal" tabindex="-1" role="dialog" aria-labelledby="CreateCustomerModal" aria-hidden="true" data-backdrop="static">
+    <div id="createCustomerContainer"> </div>
 </div>
 
 <div class="modal fade" id="editAssetModal" tabindex="-1" role="dialog" aria-labelledby="EditAssetModal" aria-hidden="true" data-backdrop="static">
@@ -82,21 +82,23 @@
           });
         });
 
-        $("#btnCreateAsset").on("click", function () {
+        $("#btnCreateCustomer").on("click", function () {
             var url = $(this).data("url");
             $.get(url, function (data) {
-                $('#createAssetContainer').html(data);
-                $('#createAssetModal').modal('show');
+                $('#createCustomerContainer').html(data);
+                $('#createCustomerModal').modal('show');
             });
         });
-        function CreateAssetSuccess(data) {
+        function CreateCustomerSuccess(data) {
             if (data != "success") {
-                $('#createAssetContainer').html(data);
+                $('#createCustomerContainer').html(data);
                 return;
             }
-            $('#createAssetModal').modal('hide');
-            $('#createAssetContainer').html("");
-        }
+            $('#createCustomerModal').modal('hide');
+            $('#createCustomerContainer').html("");
+        } 
+
+        //CallBack
     </script>
  }
 
