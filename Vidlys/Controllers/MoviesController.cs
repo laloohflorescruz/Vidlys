@@ -45,6 +45,7 @@ namespace Vidlys.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = RoleName.CanManageMovies)]
         public ActionResult Save(Movie movie)
         {
             if (!ModelState.IsValid)
@@ -92,15 +93,12 @@ namespace Vidlys.Controllers
 
         public ActionResult Details(int? id)
         {
-            var customer = _context.Movies.SingleOrDefault(c => c.Id == id);
+            var movie = _context.Movies.Include(m => m.Genre).SingleOrDefault(m => m.Id == id);
 
-            if (id == null)
-            {
-                return Content("Seleccione un Id válido");
-            }
-            if (customer == null) return HttpNotFound();
+            if (movie == null)
+                return HttpNotFound();
 
-            return View(customer);
+            return View(movie);
         }
     }
 }
